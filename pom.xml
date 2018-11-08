@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Uantwerpen</groupId>
-    <artifactId>TCP</artifactId>
+    <groupId>UA</groupId>
+    <artifactId>JenkinsTest</artifactId>
     <version>1.0</version>
     <build>
         <plugins>
@@ -24,7 +24,7 @@
                     <archive>
                         <manifest>
                             <!-- Jar file entry point -->
-                            <mainClass>Main</mainClass>
+                            <mainClass>hello</mainClass>
 
                         </manifest>
                     </archive>
